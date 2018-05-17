@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MarcAlfonso/RecuperacionNode/issues"
   },
-  "homepage": "https://github.com/MarcAlfonso/RecuperacionNode#readme"
+  "homepage": "https://github.com/MarcAlfonso/RecuperacionNode#readme",
+  "dependencies": {
+    "ascii-art": "^1.4.3",
+    "discord.js": "^11.3.2"
+  }
 }
