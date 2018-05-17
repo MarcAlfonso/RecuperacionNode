@@ -1,0 +1,19 @@
+{
+  "name": "recuperacionnode",
+  "version": "1.0.0",
+  "description": "Ejercicio discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcAlfonso/RecuperacionNode.git"
+  },
+  "author": "Marc Alfonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcAlfonso/RecuperacionNode/issues"
+  },
+  "homepage": "https://github.com/MarcAlfonso/RecuperacionNode#readme"
+}
