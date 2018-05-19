@@ -11,7 +11,7 @@ cliente.on('ready', () => {
 cliente.on('message', msg => {
   if (msg.content.indexOf('!art') == 0) {
 	  console.log(msg.content.slice(5, msg.content.length));
-	  var palabra = art.font(msg.content.slice(5, msg.content.length),'Rusted', render =>{
+	  var palabra = art.font(msg.content.slice(5, msg.content.length),'Doom', render =>{
 		console.log(render);
 		msg.reply('\n' + render);
 	  });
