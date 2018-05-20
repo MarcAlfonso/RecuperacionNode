@@ -2,11 +2,12 @@ const discord = require('discord.js');
 const cliente = new discord.Client();
 const art = require('ascii-art');
 
-var token = "NDQ2NTg5Nzk0NTg0MTAwODcw.Dd7c1w.IOr7Z6IFec1LiFpStjNuv_BCa24";
 
 cliente.on('ready', () => {
-  console.log('Te has logeado en el servidor!');
+  console.log('El bot esta ahora online');
 });
+
+var token = "NDQ2NTg5Nzk0NTg0MTAwODcw.Dd7c1w.IOr7Z6IFec1LiFpStjNuv_BCa24";
 
 cliente.on('message', msg => {
   if (msg.content.indexOf('!art') == 0) {
