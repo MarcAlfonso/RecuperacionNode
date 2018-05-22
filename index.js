@@ -10,10 +10,10 @@ cliente.on('ready', () => {
 var token = "NDQ2NTg5Nzk0NTg0MTAwODcw.Dd7c1w.IOr7Z6IFec1LiFpStjNuv_BCa24";
 
 cliente.on('message', msg => {
-  if (msg.content.indexOf('!art') == 0) {
-	  console.log(msg.content.slice(5, msg.content.length));
+  if (msg.content.indexOf('!ascii') == 0) {
+	  console.log(msg.content.slice(7, msg.content.length));
 	  var palabra = art.font(msg.content.slice
-						    (5, msg.content.length),'Doom', render =>{
+						    (7, msg.content.length),'Doom', render =>{
 		console.log(render);
 		msg.reply('\n' + render);
 	  });
